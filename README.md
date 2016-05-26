@@ -1,7 +1,7 @@
 # What is this?
 
-This is the source for twitter.com/pltideasbot, a bot that mashes up programming
-language theory ideas and tweets them!
+This is the source for [pltideasbot](https://twitter.com/pltideasbot), a
+Twitter) bot that mashes up programming language theory ideas and tweets them!
 
 Every day (modulo my internet connectivity), it picks two ideas from
 [ideas.csv](https://github.com/rntz/plt-ideas-bot/blob/master/ideas.csv), and
