@@ -26,11 +26,10 @@ def read_ideas(filename="ideas.csv"):
 
 def make_idea(line):
     """Converts a single line of a csv file into an Idea."""
-    assert 1 <= len(line) <= 3
-    what  = line[0].strip()
-    whose = line[1].strip() if len(line) > 1 else None
-    url   = line[2].strip() if len(line) > 2 else None
-    return Idea(what, whose or None, url or None)
+    assert len(line) == 3
+    what, whose, url = line
+    assert len(what) > 0
+    return Idea(what.strip(), whose.strip() or None, url.strip() or None)
 
 def mashup(a, b):
     """Mashes up two ideas to make a tweet."""
