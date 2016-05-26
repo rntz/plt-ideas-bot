@@ -20,16 +20,17 @@ class Idea(namedtuple('Idea', 'what whose url')):
 
 def read_ideas(filename="ideas.csv"):
     with open(filename) as f:
-        # filter out whitespace lines and lines starting with "--"
-        lines = (l for l in f if l.strip() and not l.startswith('--'))
-        for line in csv.reader(lines, dialect='unix'):
-            assert 1 <= len(line) <= 3
-            what  = line[0].strip()
-            whose = line[1].strip() if len(line) > 1 else None
-            url   = line[2].strip() if len(line) > 2 else None
-            if not whose: whose = None
-            if not url: url = None
-            yield Idea(what, whose, url)
+        # drop the first line, it's a header line
+        f.readline()
+        return [make_idea(line) for line in csv.reader(f)]
+
+def make_idea(line):
+    """Converts a single line of a csv file into an Idea."""
+    assert 1 <= len(line) <= 3
+    what  = line[0].strip()
+    whose = line[1].strip() if len(line) > 1 else None
+    url   = line[2].strip() if len(line) > 2 else None
+    return Idea(what, whose or None, url or None)
 
 def mashup(a, b):
     """Mashes up two ideas to make a tweet."""
