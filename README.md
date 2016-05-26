@@ -31,6 +31,8 @@ Ideas have three fields:
 3. A url, often a link to a paper. Not all ideas have urls! But a URL will never
    be omitted from the tweet if present.
 
+## What makes a good contribution?
+
 In my opinion, good ideas for mashing up:
 
 - Are not overly specific. "Functional reactive programming" is good.
