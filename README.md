@@ -11,8 +11,8 @@ publishes a tweet of the form "What if we combined X and Y?".
 
 PLT ideas bot needs your ideas! The more ideas it has, the more mashups it can
 make without getting boring. Also, the current list is totally biased toward my
-research interests. You can see the list of ideas we have so far
-[here](https://github.com/rntz/plt-ideas-bot/blob/master/ideas.csv).
+research interests. [You can see the list of ideas we have so far
+here](https://github.com/rntz/plt-ideas-bot/blob/master/ideas.csv).
 
 You can contribute by making a PR that adds your idea to `ideas.csv`. Or, you
 can update an existing idea by adding a URL or author(s)! If making a PR is too
