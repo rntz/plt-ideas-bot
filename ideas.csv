@@ -1,43 +1,44 @@
-Caires and Pfenning's linear session types,http://www.cs.cmu.edu/~fp/papers/mscs13.pdf
-Tom Murphy's distributed ML5,https://www.cs.cmu.edu/~rwh/papers/ml5/tgc.pdf
-Conal Elliott's tangible functional programming,http://conal.net/papers/Eros/
-Pfenning and Davies' judgmental modal logic,https://www.cs.cmu.edu/~fp/papers/mscs00.pdf
-Jason Reed's deconstructed modal logic,http://www.cs.cmu.edu/~jcreed/papers/jdml.pdf
-Darais and Might's parsing with derivatives,http://matt.might.net/papers/might2011derivatives.pdf
-Benton and Wadler's adjoint calculus,homepages.inf.ed.ac.uk/wadler/papers/linearmonad/linearmonad.ps
-Brzozowski's derivatives of regular expressions,http://dl.acm.org/citation.cfm?id=321249
-? Paul Hudak's arrowized FRP,
-Conal Elliott's push-pull FRP,http://conal.net/papers/push-pull-frp/
-Krishnaswami's higher-order leak-free FRP,http://www.cs.bham.ac.uk/~krishnan/simple-frp.pdf
-Wadler's dual calculus,http://homepages.inf.ed.ac.uk/wadler/papers/dual/dual.pdf
+linear session types,               Caires and Pfenning's,      http://www.cs.cmu.edu/~fp/papers/mscs13.pdf
+distributed ML5,                    Tom Murphy's,               http://www.cs.cmu.edu/~rwh/papers/ml5/tgc.pdf
+tangible functional programming,    Conal Elliott's,            http://conal.net/papers/Eros/
+judgmental modal logic,             Pfenning and Davies',       http://www.cs.cmu.edu/~fp/papers/mscs00.pdf
+deconstructed modal logic,          Jason Reed's,               http://www.cs.cmu.edu/~jcreed/papers/jdml.pdf
+parsing with derivatives,           Darais and Might's,         http://matt.might.net/papers/might2011derivatives.pdf
+adjoint calculus,                   Benton and Wadler's,        http://homepages.inf.ed.ac.uk/wadler/papers/linearmonad/linearmonad.ps
+derivatives of regular expressions, Brzozowski's,               http://dl.acm.org/citation.cfm?id=321249
+-- arrowized FRP,                    Paul Hudak's,               
+push-pull FRP,                      Conal Elliott's,            http://conal.net/papers/push-pull-frp/
+higher-order leak-free FRP,         Krishnaswami's,             http://www.cs.bham.ac.uk/~krishnan/simple-frp.pdf
+dual calculus,                      Wadler's,                   http://homepages.inf.ed.ac.uk/wadler/papers/dual/dual.pdf
 capabilities
 information flow
 first-class continuations
 delimited continuations
 modal logic
-datalog
-prolog
+Datalog
+Prolog
 lambda calculus
 combinator calculus
 relational algebra
 bidirectional type checking
-Benjamin Pierce's intersection types with bounded polymorphism
-? bidirectional computation
+intersection types with bounded polymorphism, Benjamin Pierce's
+-- bidirectional computation
 derivatives of containers
 homotopy type theory
 gradual types
 blame calculus
 garbage collection
 regions
-ML's module system,https://www.cs.cmu.edu/~rwh/papers/thoms/popl.pdf
+ML's module system,                 ,                           https://www.cs.cmu.edu/~rwh/papers/thoms/popl.pdf
 Haskell's type classes
 parametric polymorphism
-? Reynold's parametricity
-Cheney, Lindley, and Wadler's language-integrated query,http://homepages.inf.ed.ac.uk/jcheney/publications/cheney13icfp.pdf
-the Curry-Howard correspondence,http://homepages.inf.ed.ac.uk/wadler/papers/propositions-as-types/propositions-as-types.pdf
+-- parametricity,                     Reynold's
+-- note: it's important to not put whitespace before the quotes here or it parses wrong
+language-integrated query,"Cheney, Lindley, and Wadler's", http://homepages.inf.ed.ac.uk/jcheney/publications/cheney13icfp.pdf
+the Curry-Howard correspondence,    ,                           http://homepages.inf.ed.ac.uk/wadler/papers/propositions-as-types/propositions-as-types.pdf
 quoted domain specific languages
 staged evaluation
-Morrissett's typed assembly language,https://www.cs.cmu.edu/~crary/papers/1999/tal/tal.ps
+typed assembly language,            Morrissett's,               https://www.cs.cmu.edu/~crary/papers/1999/tal/tal.ps
 dependent types
-Scheme's hygienic macros,http://www.schemers.org/Documents/Standards/R5RS/HTML/r5rs-Z-H-7.html#%_idx_184
-Conor McBride's algebraic ornaments,https://personal.cis.strath.ac.uk/conor.mcbride/pub/OAAO/Ornament.pdf
+hygienic macros,                    Scheme's,                   http://www.schemers.org/Documents/Standards/R5RS/HTML/r5rs-Z-H-7.html#%_idx_184
+algebraic ornaments,                McBride's,                  https://personal.cis.strath.ac.uk/conor.mcbride/pub/OAAO/Ornament.pdf
