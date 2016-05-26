@@ -1,6 +1,6 @@
 # What is this?
 
-This is the source for [pltideasbot](https://twitter.com/pltideasbot), a
+This is the source for [@pltideasbot](https://twitter.com/pltideasbot), a
 Twitter) bot that mashes up programming language theory ideas and tweets them!
 
 Every day (modulo my internet connectivity), it picks two ideas from
@@ -16,8 +16,9 @@ research interests. You can see the list of ideas we have so far
 
 You can contribute by making a PR that adds your idea to `ideas.csv`. Or, you
 can update an existing idea by adding a URL or author(s)! If making a PR is too
-much, just tweet at @pltideasbot with the idea to add. Decisions about what
-ideas to include are ultimately down to me; see below for some guidelines.
+much, just tweet to [@pltideasbot](https://twitter.com/pltideasbot) with the
+idea to add. Decisions about what ideas to include are ultimately down to me;
+see below for some guidelines.
 
 Ideas have three fields:
 
