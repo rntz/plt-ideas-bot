@@ -38,3 +38,4 @@ dependent types,,
 hygienic macros,                    Scheme's,                   http://www.schemers.org/Documents/Standards/R5RS/HTML/r5rs-Z-H-7.html#%_idx_184
 algebraic ornaments,                McBride's,                  https://personal.cis.strath.ac.uk/conor.mcbride/pub/OAAO/Ornament.pdf
 domain-specific languages,,
+reader macros,Common Lisp's,http://www.csee.umbc.edu/courses/331/resources/lisp/onLisp/17readMacros.pdf
